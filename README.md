@@ -7,16 +7,16 @@ Sample projects:
 
 I used 11 XML file to make animation.
 
-![Animation Simple](https://github.com/mahmood-ghaem/Android_Animation/tree/master/AnimationSimple/screenshot.gif)
+![Animation Simple](https://raw.githubusercontent.com/mahmood-ghaem/Android_Animation/master/AnimationSimple/screenshot.gif)
 
 [02 - Animation Drawable](https://github.com/mahmood-ghaem/Android_Animation/tree/master/AnimationDrawable)
 
 I used 38 PNG file to make animation.
 
-![Animation Drawable](https://github.com/mahmood-ghaem/Android_Animation/tree/master/AnimationDrawable/screenshot.gif)
+![Animation Drawable](https://raw.githubusercontent.com/mahmood-ghaem/Android_Animation/master/AnimationDrawable/screenshot.gif)
 
 [03 - Animation Daimajia](https://github.com/mahmood-ghaem/Android_Animation/tree/master/AnimationDaimajia)
 
 I used AnimationDaimajia libraryibrary to make animation.
 
-![Animation Daimajia](https://github.com/mahmood-ghaem/Android_Animation/tree/master/AnimationDaimajia/screenshot.gif)
+![Animation Daimajia](https://raw.githubusercontent.com/mahmood-ghaem/Android_Animation/master/AnimationDaimajia/screenshot.gif)
