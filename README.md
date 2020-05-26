@@ -23,3 +23,18 @@ I used 38 PNG file to make animation.
 I used AnimationDaimajia libraryibrary to make animation.
 
 <img width="200"  alt="Animation Simple" align="middle" src="./AnimationDaimajia/screenshot.gif" />
+
+
+
+[04 - Animation ConstraintSet Layout](https://github.com/mahmood-ghaem/Android_Animation/tree/master/AnimationConstraintSetLayout)
+
+I used ConstraintSet and 2 XML file to make animation.
+
+<img width="200"  alt="Animation ConstraintSet Layout" align="middle" src="./AnimationConstraintSetLayout/screenshot.gif" />
+
+
+[05 - Animation ConstraintSet Code](https://github.com/mahmood-ghaem/Android_Animation/tree/master/AnimationConstraintSetCode)
+
+I used ConstraintSet and made animation with code.
+
+<img width="200"  alt="Animation ConstraintSet Code" align="middle" src="./AnimationConstraintSetCode/screenshot.gif" />
