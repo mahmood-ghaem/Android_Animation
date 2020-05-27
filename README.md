@@ -42,6 +42,8 @@ I used ConstraintSet and made animation with code.
 
 [06 - Animation MotionLayout](https://github.com/mahmood-ghaem/Android_Animation/tree/master/AnimationMotionLayout)
 
-I used ConstraintSet and made animation with code.
+I read this at the following address and rewrote the code in Java
+
+[Reference is here: CodeLabs](https://codelabs.developers.google.com/codelabs/motion-layout)
 
 <img width="200"  alt="Animation MotionLayout" align="middle" src="./AnimationMotionLayout/screenshot.gif" />
