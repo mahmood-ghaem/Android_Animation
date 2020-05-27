@@ -38,3 +38,10 @@ I used ConstraintSet and 2 XML file to make animation.
 I used ConstraintSet and made animation with code.
 
 <img width="200"  alt="Animation ConstraintSet Code" align="middle" src="./AnimationConstraintSetCode/screenshot.gif" />
+
+
+[06 - Animation MotionLayout](https://github.com/mahmood-ghaem/Android_Animation/tree/master/AnimationMotionLayout)
+
+I used ConstraintSet and made animation with code.
+
+<img width="200"  alt="Animation MotionLayout" align="middle" src="./AnimationMotionLayout/screenshot.gif" />
