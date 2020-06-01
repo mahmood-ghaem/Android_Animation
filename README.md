@@ -47,3 +47,12 @@ I read this at the following address and rewrote the code in Java
 [Reference is here: CodeLabs](https://codelabs.developers.google.com/codelabs/motion-layout)
 
 <img width="200"  alt="Animation MotionLayout" align="middle" src="./AnimationMotionLayout/screenshot.gif" />
+
+
+[07 - Make Scene Transition Animation](https://github.com/mahmood-ghaem/Android_Animation/tree/master/MakeSceneTransitionAnimation)
+
+Another type of animation making in Android Studio.
+
+[Reference is here: TVAC Studio](https://www.youtube.com/watch?v=BF4yvhpMPcg&list=PLUu5dK1pEfFexQlAskbONchfE55Wi0Sfp&index=1)
+
+<img width="200"  alt="Make Scene Transition Animation" align="middle" src="./MakeSceneTransitionAnimation/screenshot.gif" />
