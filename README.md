@@ -65,3 +65,12 @@ Make Animation without code used MotionLayout.
 [Reference is here: TVAC Studio](https://www.youtube.com/watch?v=T6029TkohgU)
 
 <img width="200"  alt="MotionLayout Demo 1" align="middle" src="./MotionLayoutDemo1/screenshot.gif" />
+
+
+[09 - MotionLayout Demo 2](https://github.com/mahmood-ghaem/Android_Animation/tree/master/MotionLayoutDemo2)
+
+Make Animation without code used MotionLayout.
+
+[Reference is here: Aaviskar Infotech](https://www.youtube.com/watch?v=O-1ou0SMhk8)
+
+<img width="200"  alt="MotionLayout Demo 2" align="middle" src="./MotionLayoutDemo2/screenshot.gif" />
