@@ -56,3 +56,12 @@ Another type of animation making in Android Studio.
 [Reference is here: TVAC Studio](https://www.youtube.com/watch?v=BF4yvhpMPcg&list=PLUu5dK1pEfFexQlAskbONchfE55Wi0Sfp&index=1)
 
 <img width="200"  alt="Make Scene Transition Animation" align="middle" src="./MakeSceneTransitionAnimation/screenshot.gif" />
+
+
+[08 - MotionLayout Demo 1](https://github.com/mahmood-ghaem/Android_Animation/tree/master/MotionLayoutDemo1)
+
+Make Animation without code used MotionLayout.
+
+[Reference is here: TVAC Studio](https://www.youtube.com/watch?v=T6029TkohgU)
+
+<img width="200"  alt="MotionLayout Demo 1" align="middle" src="./MotionLayoutDemo1/screenshot.gif" />
