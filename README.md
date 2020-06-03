@@ -83,9 +83,3 @@ Animated Number Counter with Circular ProgressBar by ValueAnimator in AndroidX |
 [Reference is here: Aaviskar Infotech](https://www.youtube.com/watch?v=PJy0X1G2A4g)
 
 <img width="200"  alt="Animation Circular ProgressBar)" align="middle" src="./AnimationCircularProgressBar/screenshot.gif" />
-
-Make Animation without code used MotionLayout.
-
-[Reference is here: Aaviskar Infotech](https://www.youtube.com/watch?v=O-1ou0SMhk8)
-
-<img width="200"  alt="MotionLayout Demo 2" align="middle" src="./MotionLayoutDemo2/screenshot.gif" />
