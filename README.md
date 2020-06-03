@@ -74,3 +74,17 @@ Make Animation without code used MotionLayout.
 [Reference is here: Aaviskar Infotech](https://www.youtube.com/watch?v=O-1ou0SMhk8)
 
 <img width="200"  alt="MotionLayout Demo 2" align="middle" src="./MotionLayoutDemo2/screenshot.gif" />
+
+
+[10 - Animation Circular ProgressBar](https://github.com/mahmood-ghaem/Android_Animation/tree/master/AnimationCircularProgressBar)
+
+Animated Number Counter with Circular ProgressBar by ValueAnimator in AndroidX | Property Animation.
+
+[Reference is here: Aaviskar Infotech](https://www.youtube.com/watch?v=PJy0X1G2A4g)
+
+<img width="200"  alt="Animation Circular ProgressBar)" align="middle" src="./AnimationCircularProgressBar/screenshot.gif" />
+
+Make Animation without code used MotionLayout.
+
+
+<img width="200"  alt="MotionLayout Demo 2" align="middle" src="./MotionLayoutDemo2/screenshot.gif" />
