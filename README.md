@@ -92,3 +92,12 @@ Animation with Motion Editor using MotionLayout | Android Studio 4.0 | Scene of 
 [Reference is here: Aaviskar Infotech](https://www.youtube.com/watch?v=yenFqlAbDnE&list=PLqIYzEuLi9Crduj_euMrVp0z5K-Hyyhj5)
 
 <img width="200"  alt="Animation Big Picture)" align="middle" src="./AnimationBigPicture/screenshot.gif" />
+
+
+[12 - Lottie Animations](https://github.com/mahmood-ghaem/Android_Animation/tree/master/LottieAnimations)
+
+Add Lottie Animations (Json Animation files) in Android and control in code.
+
+[Read more about Lottie](https://lottiefiles.com/what-is-lottie)
+
+<img width="200"  alt="Lottie Animations)" align="middle" src="./LottieAnimations/screenshot.gif" />
