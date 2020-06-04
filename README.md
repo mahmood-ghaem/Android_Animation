@@ -83,3 +83,12 @@ Animated Number Counter with Circular ProgressBar by ValueAnimator in AndroidX |
 [Reference is here: Aaviskar Infotech](https://www.youtube.com/watch?v=PJy0X1G2A4g)
 
 <img width="200"  alt="Animation Circular ProgressBar)" align="middle" src="./AnimationCircularProgressBar/screenshot.gif" />
+
+
+[11 - Animation Big Picture](https://github.com/mahmood-ghaem/Android_Animation/tree/master/AnimationBigPicture)
+
+Animation with Motion Editor using MotionLayout | Android Studio 4.0 | Scene of Scrolling Image.
+
+[Reference is here: Aaviskar Infotech](https://www.youtube.com/watch?v=yenFqlAbDnE&list=PLqIYzEuLi9Crduj_euMrVp0z5K-Hyyhj5)
+
+<img width="200"  alt="Animation Big Picture)" align="middle" src="./AnimationBigPicture/screenshot.gif" />
