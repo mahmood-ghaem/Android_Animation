@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@+id/start"
+        motion:duration="1000"
+        motion:motionInterpolator="easeInOut"
+        motion:staggered="0.6">
+        <OnClick motion:targetId="@id/imageViewIconMenu" />
+        <KeyFrameSet>
+            <KeyAttribute
+                android:alpha="0.5"
+                motion:framePosition="40"
+                motion:motionTarget="@+id/constraintLayoutNavBar" />
+            <KeyAttribute
+                android:scaleX="0"
+                motion:framePosition="50"
+                motion:motionTarget="@+id/imageViewUserAvatar" />
+            <KeyAttribute
+                android:scaleX="0.2"
+                motion:framePosition="20"
+                motion:motionTarget="@+id/textViewUserName" />
+            <KeyAttribute
+                android:scaleY="0.2"
+                motion:framePosition="20"
+                motion:motionTarget="@+id/textViewUserName" />
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="15"
+                motion:motionTarget="@+id/textViewUserEmail" />
+            <KeyAttribute
+                android:alpha="0.4"
+                android:scaleX="2"
+                motion:framePosition="60"
+                motion:motionTarget="@+id/textViewHome"
+                motion:transitionEasing="accelerate" />
+            <KeyAttribute
+                android:alpha="0.4"
+                android:scaleX="2"
+                motion:framePosition="60"
+                motion:motionTarget="@+id/textViewBooking"
+                motion:transitionEasing="accelerate" />
+            <KeyAttribute
+                android:alpha="0.4"
+                android:scaleX="2"
+                motion:framePosition="60"
+                motion:motionTarget="@+id/textViewPayment"
+                motion:transitionEasing="accelerate" />
+            <KeyAttribute
+                android:alpha="0.4"
+                android:scaleX="2"
+                motion:framePosition="60"
+                motion:motionTarget="@+id/textViewContactus"
+                motion:transitionEasing="accelerate" />
+            <KeyTrigger
+                motion:framePosition="80"
+                motion:motionTarget="@id/fab"
+                motion:onCross="hide" />
+            <KeyTrigger
+                motion:framePosition="20"
+                motion:motionTarget="@id/fab"
+                motion:onCross="show" />
+            <KeyCycle
+                motion:motionTarget="@+id/imageViewUserAvatar"
+                motion:framePosition="100"
+                motion:wavePeriod="1"
+                motion:waveShape="bounce"
+                android:translationY="10dp"
+                motion:waveOffset="0dp" />
+            <KeyCycle
+                motion:motionTarget="@+id/imageViewUserAvatar"
+                motion:framePosition="89"
+                motion:wavePeriod="1"
+                android:scaleY="0.2"
+                motion:waveOffset="1" />
+
+        </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+
+        <Constraint
+            android:id="@+id/imageViewIconMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:elevation="2dp"
+            android:rotation="0"
+            motion:layout_constraintEnd_toEndOf="@id/constraintLayoutNavBar"
+            motion:layout_constraintTop_toTopOf="@id/constraintLayoutNavBar" />
+
+        <Constraint
+            android:id="@+id/imageViewUserAvatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="3dp"
+            android:src="@drawable/user_avatar"
+            motion:layout_constraintEnd_toStartOf="parent"
+            motion:layout_constraintTop_toBottomOf="@id/imageViewIconMenu" />
+
+        <Constraint
+            android:id="@+id/guidelineVertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            motion:layout_constraintGuide_begin="10dp" />
+
+        <Constraint
+            android:id="@+id/constraintLayoutNavBar"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="60dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent" />
+
+        <Constraint
+            android:id="@+id/textViewUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="100dp"
+            android:elevation="3dp"
+            motion:layout_constraintEnd_toStartOf="parent"
+            motion:layout_constraintTop_toBottomOf="@id/imageViewUserAvatar" />
+
+        <Constraint
+            android:id="@+id/textViewUserEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:elevation="3dp"
+            motion:layout_constraintEnd_toStartOf="parent"
+            motion:layout_constraintTop_toBottomOf="@+id/textViewUserName"
+            motion:motionStagger="0.3" />
+
+        <Constraint
+            android:id="@+id/imageViewIconHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:elevation="3dp"
+            motion:layout_constraintStart_toStartOf="@id/guidelineVertical"
+            motion:layout_constraintTop_toBottomOf="@id/imageViewHeader" />
+
+        <Constraint
+            android:id="@+id/imageViewIconBooking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:elevation="3dp"
+            motion:layout_constraintStart_toStartOf="@id/guidelineVertical"
+            motion:layout_constraintTop_toBottomOf="@id/imageViewIconHome" />
+
+        <Constraint
+            android:id="@+id/imageViewIconPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:elevation="3dp"
+            motion:layout_constraintStart_toStartOf="@id/guidelineVertical"
+            motion:layout_constraintTop_toBottomOf="@id/imageViewIconBooking" />
+
+        <Constraint
+            android:id="@+id/imageViewIconContactus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:elevation="3dp"
+            motion:layout_constraintStart_toStartOf="@id/guidelineVertical"
+            motion:layout_constraintTop_toBottomOf="@id/imageViewIconPayment" />
+
+        <Constraint
+            android:id="@+id/textViewHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:elevation="3dp"
+            motion:layout_constraintEnd_toStartOf="parent"
+            motion:layout_constraintTop_toBottomOf="@+id/imageViewHeader"
+            motion:motionStagger="0.7" />
+
+        <Constraint
+            android:id="@+id/textViewBooking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:elevation="3dp"
+            motion:layout_constraintEnd_toStartOf="parent"
+            motion:layout_constraintTop_toBottomOf="@+id/textViewHome"
+            motion:motionStagger="0.6" />
+
+        <Constraint
+            android:id="@+id/textViewPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:elevation="3dp"
+            motion:layout_constraintEnd_toStartOf="parent"
+            motion:layout_constraintTop_toBottomOf="@+id/textViewBooking"
+            motion:motionStagger="0.5" />
+
+        <Constraint
+            android:id="@+id/textViewContactus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:elevation="3dp"
+            motion:layout_constraintEnd_toStartOf="parent"
+            motion:layout_constraintTop_toBottomOf="@+id/textViewPayment"
+            motion:motionStagger="0.4" />
+
+        <Constraint
+            android:id="@+id/textViewAboutus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:alpha="0"
+            android:elevation="3dp"
+            motion:layout_constraintStart_toStartOf="@id/guidelineVertical"
+            motion:layout_constraintTop_toBottomOf="@+id/textViewContactus"
+            motion:motionStagger="0.2" />
+
+        <Constraint
+            android:id="@+id/textViewPrivacyPolicy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:alpha="0"
+            android:elevation="3dp"
+            motion:layout_constraintStart_toStartOf="@id/guidelineVertical"
+            motion:layout_constraintTop_toBottomOf="@+id/textViewAboutus"
+            motion:motionStagger="0.1" />
+
+        <Constraint
+            android:id="@+id/textViewLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:alpha="0"
+            android:elevation="3dp"
+            motion:layout_constraintBottom_toBottomOf="@+id/constraintLayoutNavBar"
+            motion:layout_constraintStart_toStartOf="@id/guidelineVertical"
+            motion:motionStagger="0.15" />
+
+    </ConstraintSet>
+    //===============================================================================
+    <ConstraintSet android:id="@+id/end">
+
+        <Constraint
+            android:id="@+id/imageViewIconMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:elevation="2dp"
+            android:rotation="360"
+            motion:layout_constraintEnd_toEndOf="@id/constraintLayoutNavBar"
+            motion:layout_constraintTop_toTopOf="@id/constraintLayoutNavBar" />
+
+        <Constraint
+            android:id="@+id/imageViewUserAvatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="3dp"
+            android:src="@drawable/user_avatar"
+            motion:layout_constraintStart_toStartOf="@id/guidelineVertical"
+            motion:layout_constraintTop_toBottomOf="@id/imageViewIconMenu" />
+
+        <Constraint
+            android:id="@+id/textViewUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:elevation="3dp"
+            motion:layout_constraintStart_toStartOf="@id/guidelineVertical"
+            motion:layout_constraintTop_toBottomOf="@id/imageViewUserAvatar"
+            motion:motionStagger="@android:integer/config_longAnimTime" />
+
+        <Constraint
+            android:id="@+id/textViewUserEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:elevation="3dp"
+            motion:layout_constraintStart_toStartOf="@id/guidelineVertical"
+            motion:layout_constraintTop_toBottomOf="@+id/textViewUserName"
+            motion:motionStagger="0.3" />
+
+        <Constraint
+            android:id="@+id/imageViewIconHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:elevation="3dp"
+            motion:layout_constraintStart_toStartOf="@id/guidelineVertical"
+            motion:layout_constraintTop_toBottomOf="@id/imageViewHeader" />
+
+        <Constraint
+            android:id="@+id/imageViewIconBooking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:elevation="3dp"
+            motion:layout_constraintStart_toStartOf="@id/guidelineVertical"
+            motion:layout_constraintTop_toBottomOf="@id/imageViewIconHome" />
+
+        <Constraint
+            android:id="@+id/imageViewIconPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:elevation="3dp"
+            motion:layout_constraintStart_toStartOf="@id/guidelineVertical"
+            motion:layout_constraintTop_toBottomOf="@id/imageViewIconBooking" />
+
+        <Constraint
+            android:id="@+id/imageViewIconContactus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:elevation="3dp"
+            motion:layout_constraintStart_toStartOf="@id/guidelineVertical"
+            motion:layout_constraintTop_toBottomOf="@id/imageViewIconPayment" />
+
+        <Constraint
+            android:id="@+id/guidelineVertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            motion:layout_constraintGuide_begin="40dp" />
+
+        <Constraint
+            android:id="@+id/constraintLayoutNavBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="140dp"
+            android:layout_marginBottom="60dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent" />
+
+        <Constraint
+            android:id="@+id/textViewHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:elevation="3dp"
+            motion:layout_constraintStart_toStartOf="@id/guidelineVertical"
+            motion:layout_constraintTop_toBottomOf="@+id/imageViewHeader"
+            motion:motionStagger="0.7" />
+
+        <Constraint
+            android:id="@+id/textViewBooking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:elevation="3dp"
+            motion:layout_constraintStart_toStartOf="@id/guidelineVertical"
+            motion:layout_constraintTop_toBottomOf="@+id/textViewHome"
+            motion:motionStagger="0.6" />
+
+        <Constraint
+            android:id="@+id/textViewPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:elevation="3dp"
+            motion:layout_constraintStart_toStartOf="@id/guidelineVertical"
+            motion:layout_constraintTop_toBottomOf="@+id/textViewBooking"
+            motion:motionStagger="0.5" />
+
+        <Constraint
+            android:id="@+id/textViewContactus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:elevation="3dp"
+            motion:layout_constraintStart_toStartOf="@id/guidelineVertical"
+            motion:layout_constraintTop_toBottomOf="@+id/textViewPayment"
+            motion:motionStagger="0.4" />
+
+        <Constraint
+            android:id="@+id/textViewAboutus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:elevation="3dp"
+            motion:layout_constraintStart_toStartOf="@id/guidelineVertical"
+            motion:layout_constraintTop_toBottomOf="@+id/textViewContactus"
+            motion:motionStagger="0.2" />
+
+        <Constraint
+            android:id="@+id/textViewPrivacyPolicy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:elevation="3dp"
+            motion:layout_constraintStart_toStartOf="@id/guidelineVertical"
+            motion:layout_constraintTop_toBottomOf="@+id/textViewAboutus"
+            motion:motionStagger="0.1" />
+
+        <Constraint
+            android:id="@+id/textViewLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:elevation="3dp"
+            motion:layout_constraintBottom_toBottomOf="@+id/constraintLayoutNavBar"
+            motion:layout_constraintStart_toStartOf="@id/guidelineVertical"
+            motion:motionStagger="0.15" />
+
+    </ConstraintSet>
+</MotionScene>
