@@ -101,3 +101,14 @@ Add Lottie Animations (Json Animation files) in Android and control in code.
 [Read more about Lottie](https://lottiefiles.com/what-is-lottie)
 
 <img width="200"  alt="Lottie Animations)" align="middle" src="./LottieAnimations/screenshot.gif" />
+
+
+[13 - MotionLayout Navigation Drawer](https://github.com/mahmood-ghaem/Android_Animation/tree/master/MotionLayoutNavDrawer)
+
+Motion Layout
+Make nice animation just in XML Layout without any Java or Kotlin code.
+Use Transition: KeyFrameSet, KeyAttribute, KeyTrigger, KeyCycle, ...
+
+[I used free Adobe XD resources UI Kits](https://www.adobe.com/products/xd/resources.html#panel-3)
+
+<img width="200"  alt="MotionLayout Navigation Drawer)" align="middle" src="./MotionLayoutNavDrawer/screenshot.gif" />
