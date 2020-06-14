@@ -111,4 +111,4 @@ Use Transition: KeyFrameSet, KeyAttribute, KeyTrigger, KeyCycle, ...
 
 [I used free Adobe XD resources UI Kits](https://www.adobe.com/products/xd/resources.html#panel-3)
 
-<img width="200"  alt="MotionLayout Navigation Drawer)" align="middle" src="./MotionLayoutNavDrawer/screenshot.gif" />
+<img alt="MotionLayout Navigation Drawer)" align="middle" src="./MotionLayoutNavDrawer/screenshot.gif" />
